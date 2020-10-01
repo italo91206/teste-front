@@ -1,0 +1,106 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.opcao {
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    padding: 2px;
+    margin: 0 2px;
+    font-size: 22px;
+    border-radius: 4px;
+}
+
+.opcao.fa::before {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcao:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.container{
+    max-width: 800px;
+    width: 100%;
+    margin: 5px auto;
+    padding: 8px;
+    background-color: rgb(235, 235, 235);
+}
+
+#app{
+    text-align: unset !important;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cmd-2{
+    flex: 0 0 20%;
+}
+
+.cmd-3{
+    flex: 0 0 25%;
+}
+
+.cmd-4{
+    flex: 0 0 35%
+}
+
+.cmd-6{
+    flex: 0 0 50%;
+}
+
+.cmd-10{
+    flex: 0 0 80%;
+}
+
+.cmd-12{
+    flex: 0 0 100%;
+}
+
+.botao-full {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.errorMsg {
+    color: #f10000;
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 80%;
+    padding: 0 4px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+tr td:nth-child(1){
+    width: 45%;
+}
+
+tr td:nth-child(2){
+    width: 45%;
+}
+
+tr td:nth-child(3){
+    width: 10%;
+}
+
+th {
+    text-align: left;
+    border-bottom: solid 2px #b9b9b9;
+}
